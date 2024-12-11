@@ -1,7 +1,12 @@
 # Cross_compile_based_on_Docker
-在docker中交叉编译ARM64_ROS2，[博客](https://blog.csdn.net/weixin_51226647/article/details/144359571)
+1. 在docker中交叉编译ARM64_ROS2，[博客](https://blog.csdn.net/weixin_51226647/article/details/144359571).。
+
 # 1. 环境安装和代理设置(recommend)
 参见[Docker_install.md](./Docker_install.md)
+打包好的镜像已经上传至docker hub，拉取命令如下：
+```bash
+docker pull gjscwb3/arm64_ros2:v1.0
+```
 # 2. Getting Started
 ```bash
 # 1. 设置docker代理端口
