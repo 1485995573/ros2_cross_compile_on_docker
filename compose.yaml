@@ -1,0 +1,24 @@
+services:
+  ros2:
+    image: arm64_ros2_v1.0:latest      # 使用镜像
+    container_name: ros2               # 容器名称
+    environment:                       # 配置环境变量
+      - http_proxy=http://127.0.0.1:7897
+      - https_proxy=http://127.0.0.1:7897
+      - no_proxy=localhost,127.0.0.1
+      - QT_QPA_PLATFORM=offscreen      # 设置 Qt 使用 offscreen 插件
+    network_mode: host                 # 使用主机网络
+    stdin_open: true                   # 支持交互
+    tty: true                          # 启用伪终端
+    volumes:                           # 映射卷
+      - ./src:/app
+    # command: /bin/bash -c "/app/cross_compile.sh && \bash" # 启动脚本后保持 bash 交互
+    command: >
+      bash -c "
+        if [ ${BUILD_COMMAND} == build ]; then
+          ./build.sh;
+        elif [ ${BUILD_COMMAND} == rebuild ]; then
+          ./rebuild.sh;
+        else
+          /bin/bash;
+        fi"

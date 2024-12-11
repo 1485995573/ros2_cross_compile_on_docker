@@ -1,0 +1,17 @@
+/app/test_ros2_env/install/camera_node/lib/camera_node/talker
+/app/test_ros2_env/install/camera_node/lib/camera_node/listener
+/app/test_ros2_env/install/camera_node/share/ament_index/resource_index/package_run_dependencies/camera_node
+/app/test_ros2_env/install/camera_node/share/ament_index/resource_index/parent_prefix_path/camera_node
+/app/test_ros2_env/install/camera_node/share/camera_node/environment/ament_prefix_path.sh
+/app/test_ros2_env/install/camera_node/share/camera_node/environment/ament_prefix_path.dsv
+/app/test_ros2_env/install/camera_node/share/camera_node/environment/path.sh
+/app/test_ros2_env/install/camera_node/share/camera_node/environment/path.dsv
+/app/test_ros2_env/install/camera_node/share/camera_node/local_setup.bash
+/app/test_ros2_env/install/camera_node/share/camera_node/local_setup.sh
+/app/test_ros2_env/install/camera_node/share/camera_node/local_setup.zsh
+/app/test_ros2_env/install/camera_node/share/camera_node/local_setup.dsv
+/app/test_ros2_env/install/camera_node/share/camera_node/package.dsv
+/app/test_ros2_env/install/camera_node/share/ament_index/resource_index/packages/camera_node
+/app/test_ros2_env/install/camera_node/share/camera_node/cmake/camera_nodeConfig.cmake
+/app/test_ros2_env/install/camera_node/share/camera_node/cmake/camera_nodeConfig-version.cmake
+/app/test_ros2_env/install/camera_node/share/camera_node/package.xml

@@ -1,0 +1,6 @@
+Invoking command in '/app/test_ros2_env/build/camera_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /app/test_ros2_env/src/camera_node -DCMAKE_INSTALL_PREFIX=/app/test_ros2_env/install/camera_node
+Invoked command in '/app/test_ros2_env/build/camera_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /app/test_ros2_env/src/camera_node -DCMAKE_INSTALL_PREFIX=/app/test_ros2_env/install/camera_node
+Invoking command in '/app/test_ros2_env/build/camera_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/test_ros2_env/build/camera_node -- -j8 -l8
+Invoked command in '/app/test_ros2_env/build/camera_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/test_ros2_env/build/camera_node -- -j8 -l8
+Invoking command in '/app/test_ros2_env/build/camera_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/test_ros2_env/build/camera_node
+Invoked command in '/app/test_ros2_env/build/camera_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/test_ros2_env/build/camera_node

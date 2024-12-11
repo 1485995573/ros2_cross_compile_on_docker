@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.005096] (camera_node) JobQueued: {'identifier': 'camera_node', 'dependencies': OrderedDict()}
+[0.014570] (camera_node) JobStarted: {'identifier': 'camera_node'}
+[0.097343] (-) TimerEvent: {}
+[0.137532] (camera_node) JobProgress: {'identifier': 'camera_node', 'progress': 'cmake'}
+[0.142546] (camera_node) JobProgress: {'identifier': 'camera_node', 'progress': 'build'}
+[0.149488] (camera_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/app/test_ros2_env/build/camera_node', '--', '-j8', '-l8'], 'cwd': '/app/test_ros2_env/build/camera_node', 'env': OrderedDict([('COLCON', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('QT_QPA_PLATFORM', 'offscreen'), ('PWD', '/app/test_ros2_env/build/camera_node'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('TERM', 'xterm'), ('ROS_VERSION', '2'), ('_', '/usr/bin/colcon'), ('http_proxy', 'http://127.0.0.1:7897'), ('ROS_DISTRO', 'humble'), ('https_proxy', 'http://127.0.0.1:7897'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_PYTHON_VERSION', '3'), ('OLDPWD', '/app'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '2'), ('HOSTNAME', 'cwb-Lenovo-V330-14IKB'), ('no_proxy', 'localhost,127.0.0.1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.197542] (-) TimerEvent: {}
+[0.298707] (-) TimerEvent: {}
+[0.399822] (-) TimerEvent: {}
+[0.501187] (-) TimerEvent: {}
+[0.602412] (-) TimerEvent: {}
+[0.703397] (-) TimerEvent: {}
+[0.804482] (-) TimerEvent: {}
+[0.905651] (-) TimerEvent: {}
+[0.976149] (camera_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talker\x1b[0m\n'}
+[0.984320] (camera_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listener\x1b[0m\n'}
+[1.005865] (-) TimerEvent: {}
+[1.106972] (-) TimerEvent: {}
+[1.208050] (-) TimerEvent: {}
+[1.259970] (camera_node) StdoutLine: {'line': b'[ 50%] Built target talker\n'}
+[1.261911] (camera_node) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[1.308352] (-) TimerEvent: {}
+[1.411055] (-) TimerEvent: {}
+[1.414718] (camera_node) CommandEnded: {'returncode': 0}
+[1.421022] (camera_node) JobProgress: {'identifier': 'camera_node', 'progress': 'install'}
+[1.511465] (-) TimerEvent: {}
+[1.564281] (camera_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/app/test_ros2_env/build/camera_node'], 'cwd': '/app/test_ros2_env/build/camera_node', 'env': OrderedDict([('COLCON', '1'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('QT_QPA_PLATFORM', 'offscreen'), ('PWD', '/app/test_ros2_env/build/camera_node'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('ROS_LOCALHOST_ONLY', '0'), ('TERM', 'xterm'), ('ROS_VERSION', '2'), ('_', '/usr/bin/colcon'), ('http_proxy', 'http://127.0.0.1:7897'), ('ROS_DISTRO', 'humble'), ('https_proxy', 'http://127.0.0.1:7897'), ('LC_CTYPE', 'C.UTF-8'), ('ROS_PYTHON_VERSION', '3'), ('OLDPWD', '/app'), ('HOME', '/root'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('SHLVL', '2'), ('HOSTNAME', 'cwb-Lenovo-V330-14IKB'), ('no_proxy', 'localhost,127.0.0.1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.611725] (-) TimerEvent: {}
+[1.712845] (-) TimerEvent: {}
+[1.721254] (camera_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.730543] (camera_node) StdoutLine: {'line': b'-- Up-to-date: /app/test_ros2_env/install/camera_node/lib/camera_node/talker\n'}
+[1.734048] (camera_node) StdoutLine: {'line': b'-- Up-to-date: /app/test_ros2_env/install/camera_node/lib/camera_node/listener\n'}
+[1.735071] (camera_node) StdoutLine: {'line': b'-- Up-to-date: /app/test_ros2_env/install/camera_node/share/ament_index/resource_index/package_run_dependencies/camera_node\n'}
+[1.736209] (camera_node) StdoutLine: {'line': b'-- Up-to-date: /app/test_ros2_env/install/camera_node/share/ament_index/resource_index/parent_prefix_path/camera_node\n'}
+[1.737482] (camera_node) StdoutLine: {'line': b'-- Up-to-date: /app/test_ros2_env/install/camera_node/share/camera_node/environment/ament_prefix_path.sh\n'}
+[1.739002] (camera_node) StdoutLine: {'line': b'-- Up-to-date: /app/test_ros2_env/install/camera_node/share/camera_node/environment/ament_prefix_path.dsv\n'}
+[1.740189] (camera_node) StdoutLine: {'line': b'-- Up-to-date: /app/test_ros2_env/install/camera_node/share/camera_node/environment/path.sh\n'}
+[1.741384] (camera_node) StdoutLine: {'line': b'-- Up-to-date: /app/test_ros2_env/install/camera_node/share/camera_node/environment/path.dsv\n'}
+[1.747079] (camera_node) StdoutLine: {'line': b'-- Up-to-date: /app/test_ros2_env/install/camera_node/share/camera_node/local_setup.bash\n'}
+[1.747872] (camera_node) StdoutLine: {'line': b'-- Up-to-date: /app/test_ros2_env/install/camera_node/share/camera_node/local_setup.sh\n'}
+[1.748539] (camera_node) StdoutLine: {'line': b'-- Up-to-date: /app/test_ros2_env/install/camera_node/share/camera_node/local_setup.zsh\n'}
+[1.749183] (camera_node) StdoutLine: {'line': b'-- Up-to-date: /app/test_ros2_env/install/camera_node/share/camera_node/local_setup.dsv\n'}
+[1.749844] (camera_node) StdoutLine: {'line': b'-- Installing: /app/test_ros2_env/install/camera_node/share/camera_node/package.dsv\n'}
+[1.750506] (camera_node) StdoutLine: {'line': b'-- Up-to-date: /app/test_ros2_env/install/camera_node/share/ament_index/resource_index/packages/camera_node\n'}
+[1.751155] (camera_node) StdoutLine: {'line': b'-- Up-to-date: /app/test_ros2_env/install/camera_node/share/camera_node/cmake/camera_nodeConfig.cmake\n'}
+[1.751802] (camera_node) StdoutLine: {'line': b'-- Up-to-date: /app/test_ros2_env/install/camera_node/share/camera_node/cmake/camera_nodeConfig-version.cmake\n'}
+[1.752450] (camera_node) StdoutLine: {'line': b'-- Up-to-date: /app/test_ros2_env/install/camera_node/share/camera_node/package.xml\n'}
+[1.767222] (camera_node) CommandEnded: {'returncode': 0}
+[1.824925] (-) TimerEvent: {}
+[1.932247] (-) TimerEvent: {}
+[1.955174] (camera_node) JobEnded: {'identifier': 'camera_node', 'rc': 0}
+[1.959548] (-) EventReactorShutdown: {}

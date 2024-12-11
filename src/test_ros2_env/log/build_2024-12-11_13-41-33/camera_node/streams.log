@@ -1,0 +1,73 @@
+[0.131s] Invoking command in '/app/test_ros2_env/build/camera_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /app/test_ros2_env/src/camera_node -DCMAKE_INSTALL_PREFIX=/app/test_ros2_env/install/camera_node
+[1.551s] -- The C compiler identification is GNU 11.4.0
+[2.683s] -- The CXX compiler identification is GNU 11.4.0
+[2.793s] -- Detecting C compiler ABI info
+[4.445s] -- Detecting C compiler ABI info - done
+[4.545s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.548s] -- Detecting C compile features
+[4.552s] -- Detecting C compile features - done
+[4.581s] -- Detecting CXX compiler ABI info
+[6.145s] -- Detecting CXX compiler ABI info - done
+[6.245s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.247s] -- Detecting CXX compile features
+[6.252s] -- Detecting CXX compile features - done
+[6.289s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.930s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[9.921s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[10.206s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.242s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.307s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.423s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.578s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.961s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.976s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[12.245s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[12.398s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.638s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.698s] -- Looking for pthread.h
+[14.250s] -- Looking for pthread.h - found
+[14.253s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.889s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.898s] -- Found Threads: TRUE  
+[16.442s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[17.435s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[17.438s] -- Configured cppcheck include dirs: 
+[17.438s] -- Configured cppcheck exclude dirs and/or files: 
+[17.445s] -- Added test 'lint_cmake' to check CMake code style
+[17.453s] -- Added test 'uncrustify' to check C / C++ code style
+[17.454s] -- Configured uncrustify additional arguments: 
+[17.457s] -- Added test 'xmllint' to check XML markup files
+[17.468s] -- Configuring done
+[17.612s] -- Generating done
+[17.677s] -- Build files have been written to: /app/test_ros2_env/build/camera_node
+[17.729s] Invoked command in '/app/test_ros2_env/build/camera_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /app/test_ros2_env/src/camera_node -DCMAKE_INSTALL_PREFIX=/app/test_ros2_env/install/camera_node
+[17.738s] Invoking command in '/app/test_ros2_env/build/camera_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/test_ros2_env/build/camera_node -- -j8 -l8
+[18.792s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[18.810s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/camera_node.cpp.o[0m
+[73.587s] [ 75%] [32m[1mLinking CXX executable talker[0m
+[75.235s] [ 75%] Built target talker
+[112.881s] [100%] [32m[1mLinking CXX executable listener[0m
+[115.749s] [100%] Built target listener
+[115.902s] Invoked command in '/app/test_ros2_env/build/camera_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /app/test_ros2_env/build/camera_node -- -j8 -l8
+[116.049s] Invoking command in '/app/test_ros2_env/build/camera_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/test_ros2_env/build/camera_node
+[116.206s] -- Install configuration: ""
+[116.212s] -- Installing: /app/test_ros2_env/install/camera_node/lib/camera_node/talker
+[116.223s] -- Set runtime path of "/app/test_ros2_env/install/camera_node/lib/camera_node/talker" to ""
+[116.223s] -- Installing: /app/test_ros2_env/install/camera_node/lib/camera_node/listener
+[116.233s] -- Set runtime path of "/app/test_ros2_env/install/camera_node/lib/camera_node/listener" to ""
+[116.234s] -- Installing: /app/test_ros2_env/install/camera_node/share/ament_index/resource_index/package_run_dependencies/camera_node
+[116.235s] -- Installing: /app/test_ros2_env/install/camera_node/share/ament_index/resource_index/parent_prefix_path/camera_node
+[116.236s] -- Installing: /app/test_ros2_env/install/camera_node/share/camera_node/environment/ament_prefix_path.sh
+[116.237s] -- Installing: /app/test_ros2_env/install/camera_node/share/camera_node/environment/ament_prefix_path.dsv
+[116.238s] -- Installing: /app/test_ros2_env/install/camera_node/share/camera_node/environment/path.sh
+[116.239s] -- Installing: /app/test_ros2_env/install/camera_node/share/camera_node/environment/path.dsv
+[116.240s] -- Installing: /app/test_ros2_env/install/camera_node/share/camera_node/local_setup.bash
+[116.241s] -- Installing: /app/test_ros2_env/install/camera_node/share/camera_node/local_setup.sh
+[116.242s] -- Installing: /app/test_ros2_env/install/camera_node/share/camera_node/local_setup.zsh
+[116.243s] -- Installing: /app/test_ros2_env/install/camera_node/share/camera_node/local_setup.dsv
+[116.243s] -- Installing: /app/test_ros2_env/install/camera_node/share/camera_node/package.dsv
+[116.244s] -- Installing: /app/test_ros2_env/install/camera_node/share/ament_index/resource_index/packages/camera_node
+[116.245s] -- Installing: /app/test_ros2_env/install/camera_node/share/camera_node/cmake/camera_nodeConfig.cmake
+[116.245s] -- Installing: /app/test_ros2_env/install/camera_node/share/camera_node/cmake/camera_nodeConfig-version.cmake
+[116.246s] -- Installing: /app/test_ros2_env/install/camera_node/share/camera_node/package.xml
+[116.263s] Invoked command in '/app/test_ros2_env/build/camera_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /app/test_ros2_env/build/camera_node
